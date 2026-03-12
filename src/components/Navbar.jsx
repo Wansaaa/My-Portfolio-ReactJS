@@ -59,9 +59,6 @@ const Navbar = () => {
           {theme == 'light' ? <i className="ri-sun-line"></i> : <i className="ri-moon-line"></i>}
         </button>
       </div>
-      {/* <div className={theme == 'dark' ? 'bg-white w-80 h-80' : 'bg-dark w-80 h-80'}>
-        <h1 className="text-black light:text-white">Hello World</h1>
-      </div> */}
     </header>
   );
 };

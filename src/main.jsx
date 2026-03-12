@@ -20,7 +20,7 @@ AOS.init();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <PreLaoder /> */}
+    <PreLaoder />
     <div className="container mx-auto px-4">
       <Navbar />
       <App />
