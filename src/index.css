@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@custom-variant light (&:where(.light, .light *));
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .my-profile {
+    background: linear-gradient(to bottom, rgba(233, 230, 243, 0), rgba(169, 141, 245, 0.6), rgba(106, 61, 240, 0.8), rgba(59, 15, 214, 1));
+    overflow: hidden;
+    /* border: 5px solid #333; */
+  }
+
+  .my-profile img {
+    width: 100%;
+    min-height: auto;
+    position: inherit;
+    bottom: -100px;
+    object-fit: cover;
+  }
+}
