@@ -1,7 +1,7 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { useEffect, useState } from 'react';
 
-const PreLoader = () => {
+const PreLaoder = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const PreLoader = () => {
   );
 };
 
-export default PreLoader;
+export default PreLaoder;
